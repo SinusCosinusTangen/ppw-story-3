@@ -1,0 +1,198 @@
+h1 {
+    left: 205px;
+}
+
+img {
+    width: 490px;
+    height: 490px;
+    object-fit: fill;
+}
+
+a {
+    color: white;
+}
+
+table {
+    margin: auto;
+    text-align: center;
+}
+
+td {
+    align: center;
+}
+
+.nav {
+    width: 100%;
+}
+
+.name {
+    font-size: 48px;
+}
+
+.npm, .major, .university {
+    font-size: 36px;
+}
+
+.column-left {
+    float: left;
+    width: 20%;
+}
+
+.column-right {
+    float: left;
+    width: 80%;
+    margin-top: 25px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.rectangle {
+    width: 1510px;
+    height: 250px;
+    left: 13px;
+    top: 10px;
+    background: #C4C4C4;
+}
+
+.profile{
+    width: 193px;
+    height: 193px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.column {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 0px;
+    float: left;
+    width: 32.8905%;
+}
+
+.right {
+    margin-right: 0px;
+}
+
+.bottom-right {
+    font-size: 48px;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.wrapper::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.two {
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #C4C4C4;
+    color: black;
+    text-align: center;
+}
+
+.contact {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.foto {
+    width: 261px;
+    height: 100%;
+    margin: 0;
+}
+
+.riding {
+    background: url("riding.jpg");
+}
+
+.traveling {
+    background: url("traveling.jpg");
+}
+
+.eating {
+    background: url("eating.jpg");
+}
+
+.song {
+    background: url("song.jpg");
+}
+
+.my-row {
+    background-color: #C4C4C4;
+    margin-bottom: 20px;
+    height: 155px;
+}
+
+.judul {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.boutme {
+    background-color: #C4C4C4;
+}
+
+.row-kiri {
+    float: left;
+    width: 50%;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.row-kanan {
+    margin-left: 10px;
+    height: 619.1px;
+}
+
+.education {
+    background: url("edu.jpg");
+    color: white;
+}
+
+.skills {
+    background: url(skill.jpg);
+    color: white;
+}
+
+.bout-me {
+    background: url(boutme.jpg);
+    color: white;
+}
+
+.row-tiga {
+    height: fit-content;
+    background: none;
+}
+
+.list {
+    font-size: 24px;
+}
+
+.credits {
+    height: fit-content;
+    margin: 10px;
+    font-size: 24px;
+}
