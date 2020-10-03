@@ -56,17 +56,17 @@ td {
 }
 
 #kiri {
-    background: url("static/images/int.jpg");
+    background: url("int.jpg");
     margin-right: 10px;
 }
 
 #tengah {
-    background: url("static/images/bm.jpg");
+    background: url("bm.jpg");
     margin-right: 10px;
 }
 
 #kanan {
-    background: url("static/images/cr.jpg");
+    background: url("cr.jpg");
 }
 
 .depan {
@@ -118,19 +118,19 @@ td {
 }
 
 .riding {
-    background: url("static/images/riding.jpg");
+    background: url("riding.jpg");
 }
 
 .traveling {
-    background: url("static/images/traveling.jpg");
+    background: url("traveling.jpg");
 }
 
 .eating {
-    background: url("static/images/eating.jpg");
+    background: url("eating.jpg");
 }
 
 .song {
-    background: url("static/images/song.jpg");
+    background: url("song.jpg");
 }
 
 .my-row {
@@ -162,17 +162,17 @@ td {
 }
 
 .education {
-    background: url("static/images/edu.jpg");
+    background: url("edu.jpg");
     color: white;
 }
 
 .skills {
-    background: url("static/images/skill.jpg");
+    background: url(skill.jpg);
     color: white;
 }
 
 .bout-me {
-    background: url("static/images/boutme.jpg");
+    background: url(boutme.jpg);
     color: white;
 }
 
