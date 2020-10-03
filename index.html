@@ -1,47 +1,57 @@
 <!DOCTYPE html>
 <html>
     <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
         <link rel="stylesheet" href="style.css"/>
         <title>Story 3 PPW</title>
     </head>
 
     <body>
-        <div class=rectangle>
+        <div class="container profile">
             <div class="row">
-                <div class="column-left">
-                    <img class="profile" src="profile.jpg"/>
+                <div class="col prof-col">
+                    <img src="profile.jpg" class="img-fluid prof-pic" alt="Responsive image"/>
                 </div>
-                <div class="column-right">
-                    <div class="name">James Frederix Rolianto</div>
-                    <div class="npm">1906398553</div>
-                    <div class="major">Computer Science, 2019</div>
-                    <div class="university">University of Indonesia</div>
+
+                <div class="col">
+                    <div class="row">
+                        <div class="name">James Frederix Rolianto</div>
+                    </div>
+
+                    <div class="row">
+                        <div class="identity">
+                            1906398553<br>
+                            2019 Computer Science<br>
+                            University of Indonesia
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="wrapper">
-            <div class="column">
-                <a href="interest.html">
-                    <img class="index" src="interest.jpg"/>
-                    <div class="wrapper img bottom-right">Interest</div>
-                </a>
-            </div>
+        <div class="container bawah">
+            <div class="row depan">
+                    <a href="interest.html" class="col-sm" id="kiri">
+                        <div class="bottom-right">Interest</div>
+                    </a>
 
-            <div class="column">
-                <a href="aboutme.html">
-                    <img class="index" src="aboutme.jpg"/>
-                    <div class="wrapper img bottom-right">About Me</div>
-                </a>
+                    <a href="aboutme.html" class="col-sm" id="tengah">
+                        <div class="bottom-right">About Me</div>
+                    </a>
+                    
+                    <a href="credits.html" class="col-sm" id="kanan">
+                        <div class="bottom-right">Credits</div>
+                    </a>
             </div>
+          </div>
 
-            <div class="column right">
-                <a href="credits.html">
-                    <img class="index" src="pexels-alex-andrews-1983037.jpg"/>
-                    <div class="wrapper img bottom-right">Credits</div>
-                </a>
-            </div>
-        </div>
 
         <div class="footer">
             <table>
